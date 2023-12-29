@@ -1,0 +1,14 @@
+<div class="card-container d-flex align-items-center justify-content-center" routerLink="/user-details/{{user.id}}" class="hovered-card">
+  <div class="card-container d-flex align-items-center justify-content-center">
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="card-header">
+        <h5 class="card-title">User ID: {{user.id}}</h5>
+      </div>
+      <div class="card-body">
+        <img [src]="user.avatar" class="card-img-top" alt="Avatar">
+        <h6 class="card-subtitle">{{user.first_name}} {{user.last_name}}</h6>
+        <p class="card-text">{{user.email}}</p>
+      </div>
+    </div>
+  </div>
+</div>
