@@ -1,6 +1,6 @@
 # Angular Quiz App
 
-This project is an Angular application that serves as a quiz app. It allows users to view a list of users, details of individual users, and implements various features such as caching, loading spinner, and search functionality.
+This project is an Angular application that allows users to view a list of users, details of individual users, and implements various features such as caching, loading spinner, and search functionality.
 
 ## Table of Contents
 
